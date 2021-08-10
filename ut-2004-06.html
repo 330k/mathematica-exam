@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created by Wolfram Mathematica 8.0 : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  ut-2004-06
+ </title>
+ <link href="HTMLFiles/ut-2004-06.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ 東京大学 2004年 理科第6問
+</p>
+
+
+
+<p class="Section">
+ 問題
+</p>
+
+
+
+<p class="Text">
+ 片面を白色に，もう片面を黒色に塗った正方形の板が 3 枚ある．この 3 枚の板を机の上に横に並べ，次の操作を繰り返し行う．<br />さいころを振り，出た目が 1，2 であれば左端の板を裏返し，3，4 であればまん中の板を裏返し，5，6 であれば右端の板を裏返す．<br />たとえば，最初，板の表の色の並び方が「白白白」であったとし，1 回目の操作で出たさいころの目が 1 であれば，色の並び方は「黒白白」となる．さらに 2 回目の操作を行って出たさいころの目が 5 であれば，色の並び方は「黒白黒」となる．<br />(1) 「白白白」から始めて，3 回の操作の結果，色の並び方が「黒白白」となる確率を求めよ．<br />(2) 「白白白」から始めて，n 回の操作の結果，色の並び方が「白白白」または「白黒白」となる確率を求めよ．<br /><br />注意：さいころは 1 から 6 までの目が等確率で出るものとする．
+</p>
+
+
+
+<p class="Section">
+ 解答
+</p>
+
+
+
+<p class="Subsection">
+ (1)
+</p>
+
+
+
+<p class="Text">
+ 白をTrue、黒をFalseとして表す。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2004-06_1.gif" alt="ut-2004-06_1.gif" width="773" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 求める確率は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2004-06_2.gif" alt="ut-2004-06_2.gif" width="184" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2004-06_3.gif" alt="ut-2004-06_3.gif" width="21" height="39" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (2)
+</p>
+
+
+
+<p class="Text">
+ 初期条件を一般化してp0[i] (i=1,2,3,...,8)とする。p[8] == 1 - &sum;p0[i]であることに注意し
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2004-06_4.gif" alt="ut-2004-06_4.gif" width="620" height="149" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2004-06_5.gif" alt="ut-2004-06_5.gif" width="496" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2004-06_6.gif" alt="ut-2004-06_6.gif" width="152" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 従って求める確率をq[n]とすると、<span><span>q[1]==p0[1]+p0[3]</span></span>であり、また<span><span>q[n]==(2+q[n-2])/9</span></span>と表せる。また
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2004-06_7.gif" alt="ut-2004-06_7.gif" width="567" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2004-06_8.gif" alt="ut-2004-06_8.gif" width="13" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ なので、<span><span>q[1]==q[2]==1/3</span></span>。RSolveで漸化式を解いて
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2004-06_9.gif" alt="ut-2004-06_9.gif" width="709" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2004-06_10.gif" alt="ut-2004-06_10.gif" width="159" height="39" style="vertical-align:middle" />
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/products/mathematica/" style="color:#000; text-decoration:none;">
+  <img src="HTMLFiles/spikeyIcon.png" alt="Spikey" width="20" height="21" style="padding-right:2px; border:0px solid white; vertical-align:middle;" />
+  <span style="color:#555555">Created with</span> Wolfram <span style="font-style: italic;">Mathematica</span> 8.0
+ </a>
+</div>
+</body>
+
+</html>
