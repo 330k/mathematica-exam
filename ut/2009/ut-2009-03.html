@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created by Wolfram Mathematica 8.0 : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  東京大学 2009年 理科 第3問
+ </title>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHNSLLCT8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKHNSLLCT8');
+</script>
+ <link rel="shortcut icon" href="/mathematica-exam/favicon.ico">
+ <link href="HTMLFiles/ut-2009-03.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ 東京大学 2009年 理科 第3問
+</p>
+
+
+
+<p class="Section">
+ 問題
+</p>
+
+
+
+<p class="Text">
+ スイッチを1回押すごとに、赤、青、黄、白のいずれかの色の玉が1個、等確率<span><span><img src="HTMLFiles/ut-2009-03_1.png" alt="ut-2009-03_1.png" width="14" height="37" style="vertical-align:middle" /></span></span>で出てくる機械がある。2つの箱<span><em>L</em></span>と<span><em>R</em></span>を用意する。次の3種類の操作を考える。
+</p>
+
+
+
+<p class="Text">
+ (A) 1回スイッチを押し、出てきた玉を<span><em>L</em></span>に入れる。
+</p>
+
+
+
+<p class="Text">
+ (B) 1回スイッチを押し、出てきた玉を<span><em>R</em></span>に入れる。
+</p>
+
+
+
+<p class="Text">
+ (C) 1回スイッチを押し、出てきた玉と同じ色の玉が、<span><em>L</em></span>になければその玉を<span><em>L</em></span>に入れ、<span><em>L</em></span>にあればその玉を<span><em>R</em></span>に入れる。
+</p>
+
+
+
+<p class="Text">
+ (1) <span><em>L</em></span>と<span><em>R</em></span>は空であるとする。操作(A)を5回おこない、さらに操作(B)を5回おこなう。このとき<span><em>L</em></span>にも<span><em>R</em></span>にも4色すべての玉が入っている確率<span><span><img src="HTMLFiles/ut-2009-03_2.png" alt="ut-2009-03_2.png" width="16" height="15" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Text">
+ (2) <span><em>L</em></span>と<span><em>R</em></span>は空であるとする。操作(C)を5回おこなう。このとき<span><em>L</em></span>に4色すべての玉が入っている確率<span><span><img src="HTMLFiles/ut-2009-03_3.png" alt="ut-2009-03_3.png" width="17" height="15" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Text">
+ (3) <span><em>L</em></span>と<span><em>R</em></span>は空であるとする。操作(C)を10回おこなう。このとき<span><em>L</em></span>にも<span><em>R</em></span>にも4色すべての玉が入っている確率を<span><span><img src="HTMLFiles/ut-2009-03_4.png" alt="ut-2009-03_4.png" width="17" height="17" style="vertical-align:middle" /></span></span>とする。<span><span><img src="HTMLFiles/ut-2009-03_5.png" alt="ut-2009-03_5.png" width="22" height="40" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Section">
+ 解答
+</p>
+
+
+
+<p class="Subsection">
+ (1)
+</p>
+
+
+
+<p class="Text">
+ 取り出した玉のすべての順列をTuplesで列挙する。<br />ここで素数を用いて赤を2、青を3、黄を5、白を7として表す。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_6.gif" alt="ut-2009-03_6.gif" width="218" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_7.png" alt="ut-2009-03_7.png" width="32" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ すべての色の玉が入っているもの(総積が<span><span>2&times;3&times;5&times;7=210</span></span>で割り切れるもの)をカウントする。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_8.png" alt="ut-2009-03_8.png" width="366" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_9.png" alt="ut-2009-03_9.png" width="24" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 操作(B)も全く同様なので、求める確率<span><span><img src="HTMLFiles/ut-2009-03_10.png" alt="ut-2009-03_10.png" width="16" height="15" style="vertical-align:middle" /></span></span>は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_11.png" alt="ut-2009-03_11.png" width="140" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_12.png" alt="ut-2009-03_12.png" width="38" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (2)
+</p>
+
+
+
+<p class="Text">
+ 操作(C)を再現する関数fを定義する。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_13.png" alt="ut-2009-03_13.png" width="647" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 例えば、操作(C)によって「白赤白青黄」の順に玉が出た場合のLとRはFoldを使って以下のように計算できる。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_14.png" alt="ut-2009-03_14.png" width="256" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_15.png" alt="ut-2009-03_15.png" width="140" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 操作(C)を5回繰り返したとき、Lに入る玉のすべての順列<span><span>L2</span></span>は以下で計算できる。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_16.png" alt="ut-2009-03_16.png" width="505" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 従って求める確率<span><span><img src="HTMLFiles/ut-2009-03_17.png" alt="ut-2009-03_17.png" width="17" height="15" style="vertical-align:middle" /></span></span>は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_18.png" alt="ut-2009-03_18.png" width="485" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_19.png" alt="ut-2009-03_19.png" width="21" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (3)
+</p>
+
+
+
+<p class="Text">
+ 操作(C)を10回繰り返したときのLとRに入る玉の色の順列は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_20.png" alt="ut-2009-03_20.png" width="426" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ LにもRにも4色すべての玉が入っている確率<span><span><img src="HTMLFiles/ut-2009-03_21.png" alt="ut-2009-03_21.png" width="17" height="17" style="vertical-align:middle" /></span></span>は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_22.png" alt="ut-2009-03_22.png" width="632" height="73" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_23.png" alt="ut-2009-03_23.png" width="47" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 従って、<span><span><img src="HTMLFiles/ut-2009-03_24.png" alt="ut-2009-03_24.png" width="44" height="17" style="vertical-align:middle" /></span></span>は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2009-03_25.png" alt="ut-2009-03_25.png" width="44" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2009-03_26.png" alt="ut-2009-03_26.png" width="21" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ 補足・感想
+</p>
+
+
+
+<p class="Text">
+ 試行回数が具体的数値で決まっているので、コンピュータには解きやすい問題。<br />全パターンの列挙にTuplesを使って一瞬でできるのがMathematicaの強み。<br /><br />また、色と素数を対応させて、積が素因数を持つかどうかでどの色が入っているかを判定できるようにして高速化した部分はうまくできたと自負している。
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/products/mathematica/" style="color:#000; text-decoration:none;">
+  <img src="HTMLFiles/spikeyIcon.png" alt="Spikey" width="20" height="21" style="padding-right:2px; border:0px solid white; vertical-align:middle;" />
+  <span style="color:#555555">Created with</span> Wolfram <span style="font-style: italic;">Mathematica</span> 8.0
+ </a>
+</div>
+</body>
+
+</html>

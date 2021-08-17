@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created by Wolfram Mathematica 8.0 : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  東京大学 2003年 理科 第5問
+ </title>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHNSLLCT8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKHNSLLCT8');
+</script>
+ <link rel="shortcut icon" href="/mathematica-exam/favicon.ico">
+ <link href="HTMLFiles/ut-2003-05.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ 東京大学 2003年 理科 第5問
+</p>
+
+
+
+<p class="Section">
+ 問題
+</p>
+
+
+
+<p class="Text">
+ さいころを<span><em>n</em></span>回振り、第<span><em>1</em></span>回目から第<span><em>n</em></span>回目までに出たさいころの目の数<span><em>n</em></span>個の積を<span><span><img src="HTMLFiles/ut-2003-05_1.png" alt="ut-2003-05_1.png" width="19" height="17" style="vertical-align:middle" /></span></span>とする。
+</p>
+
+
+
+<p class="Text">
+ (1) <span><span><img src="HTMLFiles/ut-2003-05_2.png" alt="ut-2003-05_2.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れる確率を求めよ。
+</p>
+
+
+
+<p class="Text">
+ (2) <span><span><img src="HTMLFiles/ut-2003-05_3.png" alt="ut-2003-05_3.png" width="19" height="17" style="vertical-align:middle" /></span></span>が4で割り切れる確率を求めよ。
+</p>
+
+
+
+<p class="Text">
+ (3) <span><span><img src="HTMLFiles/ut-2003-05_4.png" alt="ut-2003-05_4.png" width="19" height="17" style="vertical-align:middle" /></span></span>が20で割り切れる確率を<span><span><img src="HTMLFiles/ut-2003-05_5.png" alt="ut-2003-05_5.png" width="18" height="17" style="vertical-align:middle" /></span></span>とおく。<span><span><img src="HTMLFiles/ut-2003-05_6.png" alt="ut-2003-05_6.png" width="124" height="38" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Text">
+ 注意：さいころは1から6までの目が等確率で出るものとする。
+</p>
+
+
+
+<p class="Section">
+ 解答
+</p>
+
+
+
+<p class="Subsection">
+ (1)
+</p>
+
+
+
+<p class="Text">
+ <span><span><img src="HTMLFiles/ut-2003-05_7.png" alt="ut-2003-05_7.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れる確率を<span><span><img src="HTMLFiles/ut-2003-05_8.png" alt="ut-2003-05_8.png" width="17" height="17" style="vertical-align:middle" /></span></span>とする。<span><span><img src="HTMLFiles/ut-2003-05_9.png" alt="ut-2003-05_9.png" width="33" height="17" style="vertical-align:middle" /></span></span>が5で割り切れるのは、
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_10.png" alt="ut-2003-05_10.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れないとき、<span><em>n</em><em>+</em><em>1</em></span>回目のサイコロで5の目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_11.png" alt="ut-2003-05_11.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れるとき
+</p>
+
+
+
+<p class="Text">
+ となる場合だから、漸化式を立ててRSolveで解く。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-05_12.png" alt="ut-2003-05_12.png" width="605" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2003-05_13.png" alt="ut-2003-05_13.png" width="60" height="43" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (2)
+</p>
+
+
+
+<p class="Text">
+ <span><span><img src="HTMLFiles/ut-2003-05_14.png" alt="ut-2003-05_14.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2で割り切れて4で割り切れない確率を<span><span><img src="HTMLFiles/ut-2003-05_15.png" alt="ut-2003-05_15.png" width="16" height="17" style="vertical-align:middle" /></span></span>、<br /><span><span><img src="HTMLFiles/ut-2003-05_16.png" alt="ut-2003-05_16.png" width="19" height="17" style="vertical-align:middle" /></span></span>が4で割り切れる確率を<span><span><img src="HTMLFiles/ut-2003-05_17.png" alt="ut-2003-05_17.png" width="15" height="17" style="vertical-align:middle" /></span></span>とおく。<br /><span><span><img src="HTMLFiles/ut-2003-05_18.png" alt="ut-2003-05_18.png" width="33" height="17" style="vertical-align:middle" /></span></span>が4で割り切れるのは
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_19.png" alt="ut-2003-05_19.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2で割り切れないとき、<span><em>n</em><em>+</em><em>1</em></span>回目のサイコロで4の目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_20.png" alt="ut-2003-05_20.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2で割り切れて4で割り切れないとき、<span><em>n</em><em>+</em><em>1</em></span>回目のサイコロで2,4,6のいずれかの目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_21.png" alt="ut-2003-05_21.png" width="19" height="17" style="vertical-align:middle" /></span></span>が4で割り切れるとき
+</p>
+
+
+
+<p class="Text">
+ となる場合だから、漸化式を立ててRSolveで解く。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-05_22.png" alt="ut-2003-05_22.png" width="519" height="73" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2003-05_23.png" alt="ut-2003-05_23.png" width="130" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (3)
+</p>
+
+
+
+<p class="Text">
+ 2で割り切れて4でも5でも割り切れない確率を<span><span><img src="HTMLFiles/ut-2003-05_24.png" alt="ut-2003-05_24.png" width="28" height="18" style="vertical-align:middle" /></span></span>、<br />4で割り切れて5で割り切れない確率を<span><span><img src="HTMLFiles/ut-2003-05_25.png" alt="ut-2003-05_25.png" width="29" height="18" style="vertical-align:middle" /></span></span>、<br />5で割り切れて10で割り切れない確率を<span><span><img src="HTMLFiles/ut-2003-05_26.png" alt="ut-2003-05_26.png" width="29" height="18" style="vertical-align:middle" /></span></span>、<br />10で割り切れて20で割り切れない確を<span><span><img src="HTMLFiles/ut-2003-05_27.png" alt="ut-2003-05_27.png" width="29" height="18" style="vertical-align:middle" /></span></span>とする。
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_28.png" alt="ut-2003-05_28.png" width="33" height="17" style="vertical-align:middle" /></span></span>が2で割り切れて4でも5でも割り切れない場合は
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_29.png" alt="ut-2003-05_29.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2でも5でも割り切れない(すなわち<span><em>n</em></span>回すべて1,3を出す)、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に2,6の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_30.png" alt="ut-2003-05_30.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2で割り切れるが4でも5でも割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に1,3の目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_31.png" alt="ut-2003-05_31.png" width="33" height="17" style="vertical-align:middle" /></span></span>が4で割り切れて5で割り切れない場合は
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_32.png" alt="ut-2003-05_32.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2でも5でも割り切れない(すなわち<span><em>n</em></span>回すべて1,3を出す)、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に4の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_33.png" alt="ut-2003-05_33.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2で割り切れて4でも5でも割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に2,4,6の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_34.png" alt="ut-2003-05_34.png" width="19" height="17" style="vertical-align:middle" /></span></span>が4で割り切れて5で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に5以外の目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_35.png" alt="ut-2003-05_35.png" width="33" height="17" style="vertical-align:middle" /></span></span>が5で割り切れて10で割り切れない場合は
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_36.png" alt="ut-2003-05_36.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2でも5でも割り切れない(すなわち<span><em>n</em></span>回すべて1,3を出す)、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に5の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_37.png" alt="ut-2003-05_37.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れて10で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に1,3,5の目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_38.png" alt="ut-2003-05_38.png" width="33" height="17" style="vertical-align:middle" /></span></span>が10で割り切れて20で割り切れない場合は
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_39.png" alt="ut-2003-05_39.png" width="19" height="17" style="vertical-align:middle" /></span></span>が2で割り切れて4でも5でも割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に5の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_40.png" alt="ut-2003-05_40.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れて10で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に2,6の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_41.png" alt="ut-2003-05_41.png" width="19" height="17" style="vertical-align:middle" /></span></span>が10で割り切れて20で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に1,3,5の目を出す
+</p>
+
+
+
+<p class="Item">
+ <span><span><img src="HTMLFiles/ut-2003-05_42.png" alt="ut-2003-05_42.png" width="33" height="17" style="vertical-align:middle" /></span></span>が20で割り切れる場合は
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_43.png" alt="ut-2003-05_43.png" width="19" height="17" style="vertical-align:middle" /></span></span>が4で割り切れて5で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に5の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_44.png" alt="ut-2003-05_44.png" width="19" height="17" style="vertical-align:middle" /></span></span>が5で割り切れて10で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に4の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_45.png" alt="ut-2003-05_45.png" width="19" height="17" style="vertical-align:middle" /></span></span>が10で割り切れて20で割り切れない、かつ<span><em>n</em><em>+</em><em>1</em></span>回目に2,4,6の目を出す
+</p>
+
+
+
+<p class="Subitem">
+ <span><span><img src="HTMLFiles/ut-2003-05_46.png" alt="ut-2003-05_46.png" width="19" height="17" style="vertical-align:middle" /></span></span>が20で割り切れる
+</p>
+
+
+
+<p class="Text">
+ であるから、漸化式をRSolveで解いて
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-05_47.png" alt="ut-2003-05_47.png" width="537" height="130" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2003-05_48.png" alt="ut-2003-05_48.png" width="1009" height="46" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 従って求める極限値は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-05_49.png" alt="ut-2003-05_49.png" width="425" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2003-05_50.png" alt="ut-2003-05_50.png" width="80" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ これは<span><span><img src="HTMLFiles/ut-2003-05_51.png" alt="ut-2003-05_51.png" width="39" height="37" style="vertical-align:middle" /></span></span>と等しい。
+</p>
+
+
+
+<p class="Section">
+ 補足・感想
+</p>
+
+
+
+<p class="Text">
+ (1)と(2)は余事象を考えたほうが速いが、(3)までまったく同じ解き方になるように漸化式を用いた解法にした。
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/products/mathematica/" style="color:#000; text-decoration:none;">
+  <img src="HTMLFiles/spikeyIcon.png" alt="Spikey" width="20" height="21" style="padding-right:2px; border:0px solid white; vertical-align:middle;" />
+  <span style="color:#555555">Created with</span> Wolfram <span style="font-style: italic;">Mathematica</span> 8.0
+ </a>
+</div>
+</body>
+
+</html>

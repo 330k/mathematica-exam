@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created by Wolfram Mathematica 8.0 : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  東京大学 2003年 理科 第3問
+ </title>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHNSLLCT8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKHNSLLCT8');
+</script>
+ <link rel="shortcut icon" href="/mathematica-exam/favicon.ico">
+ <link href="HTMLFiles/ut-2003-03.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ 東京大学 2003年 理科 第3問
+</p>
+
+
+
+<p class="Section">
+ 問題
+</p>
+
+
+
+<p class="Text">
+ <span><em>x</em><em> </em><em>y</em><em> </em><em>z</em></span>空間に置いて、平面<span><em>z</em><em>=</em><em>0</em></span>上の原点を中心とする半径2の円を底面とし、点<span><span>(0,0,1)</span></span>を頂点とする円錐をAとする。<br />次に、平面<span><em>z</em><em>=</em><em>0</em></span>上の点<span><span>(1,0,0)</span></span>を中心とする半径1の円をH、平面<span><em>z</em><em>=</em><em>1</em></span>上の点<span><span>(1,0,1)</span></span>を中心とする半径1の円をKとする。HとKを2つの断面とする円柱をBとする。<br />円錐Aと円柱Bの共通部分をCとする。<br /><span><em>0</em><em>&le;</em><em>t</em><em>&le;</em><em>1</em></span>を満たす実数<span><em>t</em></span>に対し、平面<span><em>z</em><em>=</em><em>t</em></span>によるCの切り口の面積を<span><em>S</em><em>(</em><em>t</em><em>)</em></span>とおく。
+</p>
+
+
+
+<p class="Text">
+ (1) <span><span><img src="HTMLFiles/ut-2003-03_1.png" alt="ut-2003-03_1.png" width="68" height="33" style="vertical-align:middle" /></span></span>とする。<span><span>t=1-cos &theta;</span></span>のとき、<span><em>S</em><em>(</em><em>t</em><em>)</em></span>を<span><em>&theta;</em></span>で表せ。
+</p>
+
+
+
+<p class="Text">
+ (2) Cの体積<span><span><img src="HTMLFiles/ut-2003-03_2.png" alt="ut-2003-03_2.png" width="73" height="35" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Section">
+ 解答
+</p>
+
+
+
+<p class="Subsection">
+ (1)
+</p>
+
+
+
+<p class="Text">
+ 円錐Aおよび円筒Bを図示すると下図。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-03_3.png" alt="ut-2003-03_3.png" width="384" height="73" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2003-03_4.gif" alt="ut-2003-03_4.gif" width="360" height="265" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span><em>z</em><em>=</em><em>t</em></span>の平面において、円錐Aの切り口は<span><span><img src="HTMLFiles/ut-2003-03_5.png" alt="ut-2003-03_5.png" width="208" height="20" style="vertical-align:middle" /></span></span>、円柱Bの切り口は<span><span><img src="HTMLFiles/ut-2003-03_6.png" alt="ut-2003-03_6.png" width="113" height="20" style="vertical-align:middle" /></span></span>で表されるから、共通部分の面積は
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-03_7.png" alt="ut-2003-03_7.png" width="649" height="54" style="vertical-align:middle" />
+</p>
+
+<table class='Output'>
+ <tr style='vertical-align: baseline;'>
+  <td style='text-align: left;'><span>\[Piecewise]</span></td>
+  <td style='text-align: left;'><table class='Inline'>
+ <tr style='vertical-align: baseline;'>
+  <td style='text-align: left;'><span>&pi;</span></td>
+  <td style='text-align: left;'><span>Cos[&theta;]==1</span></td>
+ </tr>
+ <tr style='vertical-align: baseline;'>
+  <td style='text-align: left;'><span>&pi;+2 &theta; Cos[2 &theta;]-Sin[2 &theta;]</span></td>
+  <td style='text-align: left;'><span>0&lt;Cos[&theta;]&lt;1</span></td>
+ </tr>
+ <tr style='vertical-align: baseline;'>
+  <td style='text-align: left;'><span>0</span></td>
+  <td style='text-align: left;'><span>True</span></td>
+ </tr>
+</table>
+
+</td>
+ </tr>
+</table>
+
+<p class="Text">
+ <span><span><img src="HTMLFiles/ut-2003-03_8.png" alt="ut-2003-03_8.png" width="41" height="33" style="vertical-align:middle" /></span></span>および<span><span>cos &theta;=0</span></span>のときも含めて、答えは
+</p>
+
+
+
+<p class="DisplayFormula">
+ <img src="HTMLFiles/ut-2003-03_9.png" alt="ut-2003-03_9.png" width="190" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (2)
+</p>
+
+
+
+<p class="Text">
+ <span><em>S</em><em>(</em><em>t</em><em>)</em></span>を直接<span><em>t</em></span>で積分してCの体積を得る。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2003-03_10.png" alt="ut-2003-03_10.png" width="520" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2003-03_11.png" alt="ut-2003-03_11.png" width="54" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ 補足・感想
+</p>
+
+
+
+<p class="Text">
+ IntegrateとBooleの組み合わせは強力。
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/products/mathematica/" style="color:#000; text-decoration:none;">
+  <img src="HTMLFiles/spikeyIcon.png" alt="Spikey" width="20" height="21" style="padding-right:2px; border:0px solid white; vertical-align:middle;" />
+  <span style="color:#555555">Created with</span> Wolfram <span style="font-style: italic;">Mathematica</span> 8.0
+ </a>
+</div>
+</body>
+
+</html>
