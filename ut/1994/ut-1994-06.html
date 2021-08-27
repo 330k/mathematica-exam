@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created by Wolfram Mathematica 8.0 : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  東京大学 1994年 理科 第6問
+ </title>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHNSLLCT8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKHNSLLCT8');
+</script>
+ <link rel="shortcut icon" href="/mathematica-exam/favicon.ico">
+ <link href="HTMLFiles/ut-1994-06.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ 東京大学 1994年 理科 第6問
+</p>
+
+
+
+<p class="Section">
+ 問題
+</p>
+
+
+
+<p class="Text">
+ <span><em>x</em><em> </em><em>y</em></span>平面上の2点<span><em>P</em><em>,</em><em>Q</em></span>に対し、<span><em>P</em></span>と<span><em>Q</em></span>を<span><em>x</em></span>軸または<span><em>y</em></span>軸に平行な線分からなる折れ線で結ぶときの経路の長さの最小値を<span><span>d(P,Q)</span></span>で表す。
+</p>
+
+
+
+<p class="Text">
+ (1) 原点O<span><span>(0,0)</span></span>と点<span><span>A(1,1)</span></span>に対し、<span><span>d(O,P)=d(P,A)</span></span>を満たす点<span><span>P(x,y)</span></span>の範囲を<span><em>x</em><em> </em><em>y</em></span>平面上に図示せよ。
+</p>
+
+
+
+<p class="Text">
+ (2) 実数<span><em>a</em><em>&ge;</em><em>0</em></span>に対し、点<span><span><img src="HTMLFiles/ut-1994-06_1.png" alt="ut-1994-06_1.png" width="84" height="22" style="vertical-align:middle" /></span></span>を考える。<br />次の条件(*)を満足する点<span><span>P(x,y)</span></span>の範囲を<span><em>x</em><em> </em><em>y</em></span>平面上に図示せよ。<br />(*) 原点O<span><span>(0,0)</span></span>に対し、<span><span>d(O,P)=d(P,Q)</span></span>となるような<span><em>a</em><em>&ge;</em><em>0</em></span>が存在する。
+</p>
+
+
+
+<p class="Section">
+ 解答
+</p>
+
+
+
+<p class="Subsection">
+ (1)
+</p>
+
+
+
+<p class="Text">
+ <span><span>d(P,Q)</span></span>はPとQのマンハッタン距離であるから、
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-1994-06_2.png" alt="ut-1994-06_2.png" width="564" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-1994-06_3.png" alt="ut-1994-06_3.png" width="418" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ これを図示すると下図の塗りつぶし部および太線部。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-1994-06_4.png" alt="ut-1994-06_4.png" width="510" height="168" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-1994-06_5.gif" alt="ut-1994-06_5.gif" width="360" height="362" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (2)
+</p>
+
+
+
+<p class="Text">
+ (*)より
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-1994-06_6.png" alt="ut-1994-06_6.png" width="547" height="92" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-1994-06_7.png" alt="ut-1994-06_7.png" width="500" height="44" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ 図示すると下図(境界線を含む)。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-1994-06_8.png" alt="ut-1994-06_8.png" width="536" height="206" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-1994-06_9.gif" alt="ut-1994-06_9.gif" width="360" height="387" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ 補足・感想
+</p>
+
+
+
+<p class="Text">
+ MathematicaはAbsを「簡約化された形」としているので、そのままではAbsを含んだままの解を返してくる。<br />この問題で適した形にするにはPiecewiseExpandを使って展開する必要がある。
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/products/mathematica/" style="color:#000; text-decoration:none;">
+  <img src="HTMLFiles/spikeyIcon.png" alt="Spikey" width="20" height="21" style="padding-right:2px; border:0px solid white; vertical-align:middle;" />
+  <span style="color:#555555">Created with</span> Wolfram <span style="font-style: italic;">Mathematica</span> 8.0
+ </a>
+</div>
+</body>
+
+</html>
