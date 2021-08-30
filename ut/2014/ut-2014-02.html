@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created by Wolfram Mathematica 8.0 : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  東京大学 2014年 理科 第2問
+ </title>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKHNSLLCT8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKHNSLLCT8');
+</script>
+ <link rel="shortcut icon" href="/mathematica-exam/favicon.ico">
+ <link href="HTMLFiles/ut-2014-02.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ 東京大学 2014年 理科 第2問
+</p>
+
+
+
+<p class="Section">
+ 問題
+</p>
+
+
+
+<p class="Text">
+ <span><em>a</em></span>を自然数(すなわち1以上の整数)の定数とする。<br />白球と赤球があわせて1個以上入っている袋Uに対して、次の操作(*)を考える。
+</p>
+
+
+
+<p class="Text">
+ (*) 袋Uから球を1個取り出し、<br />(i)&nbsp;&nbsp;&nbsp;&nbsp;取り出した球が白球のときは、袋Uの中身が白球<span><em>a</em></span>個、赤球1個となるようにする。<br />(ii)&nbsp;&nbsp;&nbsp;&nbsp;取り出した球が赤球のときは、その球を袋Uへ戻すことなく、袋Uの中身はそのままにする。
+</p>
+
+
+
+<p class="Text">
+ はじめに袋Uの中に、白球が<span><em>a</em><em>+</em><em>2</em></span>個、赤球が1個入っているとする。この袋Uに対して操作(*)を繰り返し行う。
+</p>
+
+
+
+<p class="Text">
+ たとえば、1回目の操作で白球が出たとすると、袋Uの中身は白球<span><em>a</em></span>個、赤球1個となり、さらに2回目の操作で赤球が出たとすると、袋Uの中身は白球<span><em>a</em></span>個のみとなる。
+</p>
+
+
+
+<p class="Text">
+ <span><em>n</em></span>回目に取り出した球が赤球である確率を<span><span><img src="HTMLFiles/ut-2014-02_1.png" alt="ut-2014-02_1.png" width="18" height="17" style="vertical-align:middle" /></span></span>とする。ただし、袋Uの中の個々の球の取り出される確率は等しいものとする。
+</p>
+
+
+
+<p class="Text">
+ (1)&nbsp;&nbsp;&nbsp;&nbsp;<span><span><img src="HTMLFiles/ut-2014-02_2.png" alt="ut-2014-02_2.png" width="42" height="17" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Text">
+ (2)&nbsp;&nbsp;&nbsp;&nbsp;<span><em>n</em><em>&ge;</em><em>3</em></span>に対して<span><span><img src="HTMLFiles/ut-2014-02_3.png" alt="ut-2014-02_3.png" width="18" height="17" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Text">
+ (3)&nbsp;&nbsp;&nbsp;&nbsp;<span><span><img src="HTMLFiles/ut-2014-02_4.png" alt="ut-2014-02_4.png" width="102" height="38" style="vertical-align:middle" /></span></span>を求めよ。
+</p>
+
+
+
+<p class="Section">
+ 解答
+</p>
+
+
+
+<p class="Subsection">
+ (1)
+</p>
+
+
+
+<p class="Text">
+ 1回目に赤球が出るのは、<span><em>a</em><em>+</em><em>3</em></span>個の中から1個ある赤球が出たとき。<br />2回目に赤球が出るのは、1回目に<span><em>a</em><em>+</em><em>3</em></span>個中<span><em>a</em><em>+</em><em>2</em></span>個ある白球が出て、2回めに<span><em>a</em><em>+</em><em>1</em></span>個中1個ある赤球が出たとき。<br /><br />よって
+</p>
+
+
+
+<p class="Text">
+ <span><span><img src="HTMLFiles/ut-2014-02_5.png" alt="ut-2014-02_5.png" width="218" height="40" style="vertical-align:middle" /></span></span>
+</p>
+
+
+
+<p class="Subsection">
+ (2)
+</p>
+
+
+
+<p class="Text">
+ <span><em>n</em><em>&ge;</em><em>2</em></span>のとき、<span><em>n</em></span>回目に赤球が出るのは、<span><em>n</em><em>-</em><em>1</em></span>回目に白球が出て、<span><em>n</em></span>回目に赤球が出たとき。<br />従って漸化式を立てて解くと、
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2014-02_6.png" alt="ut-2014-02_6.png" width="646" height="35" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2014-02_7.png" alt="ut-2014-02_7.png" width="237" height="56" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ (3)
+</p>
+
+
+
+<p class="Text">
+ 極限を計算させる。
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/ut-2014-02_8.png" alt="ut-2014-02_8.png" width="582" height="15" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/ut-2014-02_9.png" alt="ut-2014-02_9.png" width="37" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ 補足・感想
+</p>
+
+
+
+<p class="Text">
+ ちょっと面倒な計算部分をMathematicaにやってもらっただけで、手順としては手計算と変わらない。
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/products/mathematica/" style="color:#000; text-decoration:none;">
+  <img src="HTMLFiles/spikeyIcon.png" alt="Spikey" width="20" height="21" style="padding-right:2px; border:0px solid white; vertical-align:middle;" />
+  <span style="color:#555555">Created with</span> Wolfram <span style="font-style: italic;">Mathematica</span> 8.0
+ </a>
+</div>
+</body>
+
+</html>
